@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yinyajiang/machineid"
+	"github.com/projectdiscovery/machineid"
 )
 
 const usageStr = `

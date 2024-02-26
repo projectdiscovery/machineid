@@ -1,5 +1,5 @@
-module github.com/yinyajiang/machineid
+module github.com/projectdiscovery/machineid
 
-go 1.20
+go 1.21
 
 require golang.org/x/sys v0.11.0
