@@ -1,8 +1,8 @@
 // Package machineid provides support for reading the unique machine id of most OSs (without admin privileges).
 //
-// https://github.com/denisbrodbeck/machineid
+// https://github.com/projectdiscovery/machineid
 //
-// https://godoc.org/github.com/denisbrodbeck/machineid/cmd/machineid
+// https://godoc.org/github.com/projectdiscovery/machineid/cmd/machineid
 //
 // This package is Cross-Platform (tested on Win7+, Debian 8+, Ubuntu 14.04+, OS X 10.6+, FreeBSD 11+)
 // and does not use any internal hardware IDs (no MAC, BIOS, or CPU).
@@ -17,7 +17,7 @@
 // Linux users can generate a new id with `dbus-uuidgen` and put the id into
 // `/var/lib/dbus/machine-id` and `/etc/machine-id`.
 // Windows users can use the `sysprep` toolchain to create images, which produce valid images ready for distribution.
-package machineid // import "github.com/denisbrodbeck/machineid"
+package machineid // import "github.com/projectdiscovery/machineid"
 
 import (
 	"fmt"
